@@ -2,7 +2,7 @@ const express = require("express")
 const bodyParser = require('body-parser');
 const HTTP_PORT = 3008;
 const app = express();
-var sms = require('./sms.js');
+const sms = require('./sms.js');
 
 
 app.use(bodyParser.urlencoded({
