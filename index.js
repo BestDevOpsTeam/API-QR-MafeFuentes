@@ -33,7 +33,7 @@ app.post("/api/v1/sms", async (req, res, next) => {
 });
 
 app.listen(HTTP_PORT, () => {
-    console.log(`Server running on port: ${HTTP_PORT}`)
+    console.log(`Server running on port ${HTTP_PORT}`)
 });
 
 module.exports = app;
