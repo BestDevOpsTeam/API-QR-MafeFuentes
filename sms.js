@@ -1,5 +1,5 @@
-var axios = require('axios');
-var endoint = 'https://api.juancarlosparragalan.com/prodsms/api/v1/smsmessage'
+const axios = require('axios');
+const endoint = 'https://api.juancarlosparragalan.com/prodsms/api/v1/smsmessage'
 async function sendSMS(phoneNumber, name) {
     let response = {}
     if(!phoneNumber){
